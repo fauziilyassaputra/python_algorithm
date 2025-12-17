@@ -6,7 +6,7 @@ def bulbs(A):
             if i == 0:
                 cost += 1
         
-        if cost % 2 == 1:
+        elif cost % 2 == 1:
             if i == 1:
                 cost += 1
         
