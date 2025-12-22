@@ -1,4 +1,7 @@
-def gridTraveler(m,n, memo= {}):
+def gridTraveler(m,n, memo=None):
+    if memo is None:
+        memo = {}
+    
     key = m,n
     # base case
     if key in memo:
